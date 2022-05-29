@@ -1,0 +1,206 @@
+body {
+  background-color: #f8e9dd;
+}
+
+.main-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card {
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ec775f;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 5rem;
+  padding: 0 2rem;
+  border-radius: .5rem;
+}
+
+.header > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fffaf5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.sec-card {
+  background-color: #fffaf5;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: .5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-card > h2 {
+  color: #382314;
+}
+
+.sec-card .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+}
+
+.sec-card .days > .mon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #93867b;
+}
+
+.sec-card .days > .mon > .bar {
+  border: 20px solid #ec775f;
+  height: 1vh;
+  border-radius: 5px;
+  margin-top: 3.5rem;
+}
+
+.sec-card .days > .mon > .tbar {
+  border: 20px solid #ec775f;
+  height: 5vh;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.sec-card .days > .mon > .wbar {
+  border: 20px solid #76b5bc;
+  height: 10vh;
+  border-radius: 5px;
+}
+
+.sec-card .days > .mon > .thbar {
+  border: 20px solid #ec775f;
+  height: 1.5rem;
+  margin-top: 2.5rem;
+  border-radius: 5px;
+}
+
+.sec-card .days > .mon > .fbar {
+  border: 20px solid #ec775f;
+  height: 1.3vh;
+  margin-top: 3.5rem;
+  border-radius: 5px;
+}
+
+.sec-card .days > .mon > .sbar {
+  border: 20px solid #ec775f;
+  height: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.sec-card .days > .mon > .subar {
+  border: 20px solid #ec775f;
+  height: 1vh;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.sec-card > .line {
+  border: 0.5px solid #f8e9dd;
+  margin: 1.5rem 0;
+}
+
+.sec-card > .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.tota {
+  font-size: 10px;
+  color: #93867b;
+}
+
+.per {
+  font-weight: bold;
+  color: #382314;
+  text-align: right;
+}
+
+.from {
+  color: #93867b;
+}
+
+@media only screen and (min-width: 160px) and (max-width: 750px) {
+  .card {
+    width: 90%;
+    margin-top: 4rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
